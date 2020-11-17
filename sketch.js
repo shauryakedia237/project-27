@@ -17,14 +17,17 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-	roof = new Roof(400,90,600,70);
+	bob1=new bob(800-80,675,40);
+	bob2=new bob(800-40,675,40);
+	bob3=new bob(800,675,40);
+	bob4=new bob(800+40,675,40);
+	bob5=new bob(800+80,675,40);
 
-	bob1 = new Bob(400,290,120,120);
-	bob2 = new Bob(400,290,120,120);
-	bob3 = new Bob(400,290,120,120);
-	bob4 = new Bob(400,290,120,120);
-	bob5 = new Bob(400,290,120,120);
+	roof = new Roof(width/2,height/4,width/7,20);
+	
 
+	rope1 = new rope(bob1.body,roof.body,-40*2,0)
+	
 	Engine.run(engine);
   
 }
@@ -41,7 +44,7 @@ function draw() {
   bob3.display();
   bob4.display();
   bob5.display();
- 
+  rope1.display();
 }
 
 
