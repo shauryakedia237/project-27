@@ -5,9 +5,9 @@ class Roof {
 			}
 		this.x=x;
 		this.y=y;
-		this.w=w;
-		this.h=h;
-		this.body=Bodies.rectangle(x, y, w, h , options);
+		this.w= width;
+		this.h= height;
+		this.body=Bodies.rectangle(x, y, width, height, options);
  		World.add(world, this.body);
 
 	}
