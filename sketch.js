@@ -18,11 +18,11 @@ function setup() {
 	world = engine.world;
 
 	//Create the Bodies Here.
-	bob1=new Bob(800-80,675,40);
-	bob2=new Bob(800-40,675,40);
-	bob3=new Bob(800,675,40);
-	bob4=new Bob(800+40,675,40);
-	bob5=new Bob(800+80,675,40);
+	bob1 =new Bob(800-80,675,40);
+	bob2 =new Bob(800-40,675,40);
+	bob3 =new Bob(800,675,40);
+	bob4 =new Bob(800+40,675,40);
+	bob5 =new Bob(800+80,675,40);
 
 	roof = new Roof(width/2,height/4,width/7,20);
 	
