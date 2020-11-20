@@ -24,7 +24,7 @@ function setup() {
 	bob4 =new Bob(800+40,675,40);
 	bob5 =new Bob(800+80,675,40);
 
-	roof = new Roof(width/2,height/4,width/7,20);
+	roof = new Roof(400,175,width/7,20);
 	
 
 	rope1 = new Rope(bob1.body,roof.body,-40*2,0)
