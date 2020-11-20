@@ -17,7 +17,7 @@ class Bob {
       var pos =this.body.position;
       push();
       translate(pos.x, pos.y);
-      ImageMode(CENTER);
+      RectMode(CENTER);
       ellipse(0, 0, this.radius,this.radius);
       pop();
     }
